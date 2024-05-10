@@ -39,7 +39,7 @@
       alt=""
     />
     <NuxtImg
-      class="bottom-0 left-0 hidden w-full md:absolute md:block"
+      class="-bottom-12 left-0 hidden w-full md:absolute md:block"
       src="/images/bg-curve-desktop.svg"
       alt=""
     />
