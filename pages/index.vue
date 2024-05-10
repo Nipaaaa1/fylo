@@ -30,7 +30,7 @@
       alt=""
     />
   </section>
-  <section class="container space-y-8 bg-neutral-blue p-6">
+  <section class="container space-y-8 bg-neutral-blue p-6 pb-24">
     <NuxtImg
       class="h-max w-full pb-8"
       src="/images/illustration-2.svg"
@@ -54,5 +54,28 @@
       See how Fylo works
       <NuxtImg class="size-5" src="/images/icon-arrow.svg" alt="" />
     </a>
+    <div
+      class="space-y-4 rounded bg-white p-8 font-open-sans text-xs text-primary-dark-blue shadow-lg"
+    >
+      <NuxtImg class="size-4" src="/images/icon-quotes.svg" alt="" />
+      <p class="leading-5">
+        Fylo has improved our team productivity by an order of magnitude. Since
+        making the switch our team has become a well-oiled collaboration
+        machine.
+      </p>
+      <div class="flex gap-2">
+        <NuxtImg
+          class="size-10 rounded-full"
+          src="/images/avatar-testimonial.jpg"
+          alt=""
+        />
+        <div class="flex flex-col">
+          <span class="font-raleway text-sm font-bold">Kyle Burton</span>
+          <span class="text-primary-desaturated-blue"
+            >Founder & CEO, Huddle</span
+          >
+        </div>
+      </div>
+    </div>
   </section>
 </template>
