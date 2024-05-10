@@ -1,6 +1,8 @@
 <template>
   <footer class="w-full bg-primary-dark-blue font-open-sans">
-    <section class="container flex flex-col gap-10 px-6 py-12 text-white">
+    <section
+      class="container mx-auto flex flex-col gap-10 px-6 py-12 text-white"
+    >
       <NuxtImg class="h-8 w-max" src="/images/footer.svg" alt="" />
       <ul class="space-y-2 *:flex *:items-center *:gap-4">
         <li>
