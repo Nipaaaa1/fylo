@@ -1,6 +1,6 @@
 <template>
   <section
-    class="container relative space-y-8 p-6 text-primary-dark-blue md:flex md:flex-row-reverse md:justify-between md:p-12"
+    class="container relative space-y-8 p-6 text-primary-dark-blue md:flex md:flex-row-reverse md:justify-between md:p-16"
   >
     <NuxtImg
       class="h-max w-full md:h-full md:w-max"
