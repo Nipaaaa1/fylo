@@ -52,9 +52,7 @@
       href="#"
     >
       See how Fylo works
-      <ArrowRight
-        class="size-4 rounded-full bg-accent-cyan p-0.5 text-neutral-blue"
-      />
+      <NuxtImg class="size-5" src="/images/icon-arrow.svg" alt="" />
     </a>
   </section>
 </template>
