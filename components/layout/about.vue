@@ -4,7 +4,7 @@
       class="container mx-auto space-y-8 p-6 pb-24 md:flex md:flex-row-reverse md:justify-between md:p-16"
     >
       <NuxtImg
-        class="h-max w-full pb-8 md:h-full md:w-max"
+        class="h-max w-full pb-8 md:max-w-xl"
         src="/images/illustration-2.svg"
         alt=""
       />

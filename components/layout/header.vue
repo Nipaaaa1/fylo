@@ -3,7 +3,7 @@
     class="container relative mx-auto space-y-8 p-6 text-primary-dark-blue md:flex md:flex-row-reverse md:justify-between md:p-16"
   >
     <NuxtImg
-      class="h-max w-full md:h-full md:w-max"
+      class="h-max w-full md:max-w-xl"
       src="/images/illustration-1.svg"
       alt=""
     />
