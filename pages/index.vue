@@ -12,7 +12,9 @@ useHead({
 </script>
 
 <template>
-  <LayoutHeader />
-  <LayoutAbout />
-  <LayoutGetStarted />
+  <div>
+    <LayoutHeader />
+    <LayoutAbout />
+    <LayoutGetStarted />
+  </div>
 </template>
