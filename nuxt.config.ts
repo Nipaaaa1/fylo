@@ -10,17 +10,18 @@ export default defineNuxtConfig({
     },
   },
   googleFonts: {
+    preload: true,
     families: {
       Raleway: {
-        wght: [400, 700]
+        wght: [400, 700],
       },
       "Open Sans": {
-        wght: [400]
-      }
-    }
+        wght: [400],
+      },
+    },
   },
   image: {
     quality: 75,
-    format: ['avif', 'webp', 'png']
-  }
+    format: ["avif", "webp", "png"],
+  },
 });
