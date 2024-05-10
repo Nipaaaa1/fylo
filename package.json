@@ -11,7 +11,7 @@
     "lint": "pnpm lint:eslint && pnpm lint:prettier",
     "lint:prettier": "prettier . --check",
     "lint:eslint": "eslint .",
-    "lint:fix": "eslint . --fix && prettier --write --list-different"
+    "lint:fix": "eslint . --fix && prettier --write --list-different ."
   },
   "dependencies": {
     "nuxt": "^3.11.2",
