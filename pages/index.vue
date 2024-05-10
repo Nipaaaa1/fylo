@@ -10,10 +10,11 @@
       co-workers.
     </p>
     <form class="space-y-4 pb-16">
-      <label for="" class="sr-only w-0">Email</label>
+      <label for="email" class="sr-only w-0">Email</label>
       <input
         class="w-full rounded border border-primary-desaturated-blue p-2 placeholder:font-open-sans placeholder:text-sm"
-        type="text"
+        type="email"
+        name="email"
         placeholder="Enter your email"
         required
       />
