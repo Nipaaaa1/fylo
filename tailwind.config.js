@@ -23,6 +23,10 @@ export default {
           "blue": "hsl(240, 75%, 98%)",
           "gray": "hsl(0, 0%, 75%)"
         },
+      },
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"]
       }
     },
   },
