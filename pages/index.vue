@@ -8,6 +8,9 @@ useHead({
         "This is a solution of Fylo Landing Page Challenge from Frontend Mentor by Devan",
     },
   ],
+  htmlAttrs: {
+    lang: "en",
+  },
 });
 </script>
 
