@@ -1,5 +1,5 @@
 <template>
-  <section class="container relative space-y-8 p-6">
+  <section class="container relative space-y-8 p-6 text-primary-dark-blue">
     <NuxtImg class="h-max w-full" src="/images/illustration-1.svg" alt="" />
     <h1 class="text-center text-2xl font-bold">
       All your files in one secure location, accessible anywhere.
