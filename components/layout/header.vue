@@ -1,3 +1,20 @@
+<script setup lang="ts">
+const email = ref<string>();
+const isEmail = ref<boolean>(true);
+
+const handleSubmit = (e: Event) => {
+  e.preventDefault();
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (emailRegex.test(email.value as string)) {
+    console.log("berhasil");
+    isEmail.value = true;
+  } else {
+    console.log("gagal");
+    isEmail.value = false;
+  }
+};
+</script>
+
 <template>
   <section
     class="container relative mx-auto space-y-8 p-6 text-primary-dark-blue md:flex md:flex-row-reverse md:justify-between md:p-16"
@@ -16,18 +33,28 @@
         them whenever you need, share and collaborate with friends, family, and
         co-workers.
       </p>
-      <form class="space-y-4 pb-16 md:flex md:gap-4 md:pb-80">
+
+      <form
+        @submit="handleSubmit"
+        class="space-y-4 pb-16 md:flex md:gap-4 md:pb-80"
+      >
         <label for="email" class="sr-only w-0">Email</label>
-        <input
-          class="w-full rounded border border-primary-desaturated-blue p-2 placeholder:font-open-sans placeholder:text-sm md:w-4/5"
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        />
+        <div class="flex w-full flex-col">
+          <input
+            v-model="email"
+            :class="`w-full rounded border p-2 placeholder:font-open-sans placeholder:text-sm md:w-full ${isEmail ? 'border-primary-desaturated-blue' : 'border-red-500'}`"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <p v-if="!isEmail" class="text-sm text-red-500">
+            Please check your email
+          </p>
+        </div>
         <button
           type="submit"
-          class="w-full rounded bg-accent-blue p-2 text-sm font-bold tracking-wider text-white shadow-md md:w-80"
+          class="h-max w-full rounded bg-accent-blue py-3 text-sm font-bold tracking-wider text-white shadow-md transition ease-in-out hover:brightness-125 md:w-80"
         >
           Get Started
         </button>
