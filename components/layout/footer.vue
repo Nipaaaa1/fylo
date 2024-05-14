@@ -16,31 +16,37 @@
           </li>
         </ul>
 
-        <ul class="space-y-2 md:space-y-4">
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
+        <ul class="space-y-2 *:cursor-pointer md:space-y-4">
+          <li class="transition ease-in-out hover:text-accent-blue">
+            About Us
+          </li>
+          <li class="transition ease-in-out hover:text-accent-blue">Jobs</li>
+          <li class="transition ease-in-out hover:text-accent-blue">Press</li>
+          <li class="transition ease-in-out hover:text-accent-blue">Blog</li>
         </ul>
-        <ul class="space-y-2 md:space-y-4">
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>
+        <ul class="space-y-2 *:cursor-pointer md:space-y-4">
+          <li class="transition ease-in-out hover:text-accent-blue">
+            Contact Us
+          </li>
+          <li class="transition ease-in-out hover:text-accent-blue">Terms</li>
+          <li class="transition ease-in-out hover:text-accent-blue">Privacy</li>
         </ul>
-        <ul class="flex items-center gap-4 self-center md:self-start">
+        <ul
+          class="flex items-center gap-4 self-center *:cursor-pointer md:self-start"
+        >
           <li>
             <Facebook
-              class="size-8 rounded-full border border-white p-1.5 text-white"
+              class="size-8 rounded-full border border-white p-1.5 text-white transition ease-in-out hover:border-accent-blue hover:text-accent-blue"
             />
           </li>
           <li>
             <Twitter
-              class="size-8 rounded-full border border-white p-1.5 text-white"
+              class="size-8 rounded-full border border-white p-1.5 text-white transition ease-in-out hover:border-accent-blue hover:text-accent-blue"
             />
           </li>
           <li>
             <Instagram
-              class="size-8 rounded-full border border-white p-1.5 text-white"
+              class="size-8 rounded-full border border-white p-1.5 text-white transition ease-in-out hover:border-accent-blue hover:text-accent-blue"
             />
           </li>
         </ul>
