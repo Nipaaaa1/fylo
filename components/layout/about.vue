@@ -23,7 +23,7 @@
           for live collaboration. No email attachments required!
         </p>
         <a
-          class="mx-auto flex w-max items-center gap-2 border-b border-accent-cyan pb-1 font-open-sans text-sm text-accent-cyan md:mx-0"
+          class="mx-auto flex w-max items-center gap-2 border-b border-accent-cyan pb-1 font-open-sans text-sm text-accent-cyan transition ease-in-out hover:brightness-125 md:mx-0"
           href="#"
         >
           See how Fylo works
